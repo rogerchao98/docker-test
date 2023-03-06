@@ -6,7 +6,7 @@ class Controller {
       res.send('Hello World').end();
     } else {
 
-      res.json({text: 'Hello World'}).end();
+      res.json({text: 'Hello bro'}).end();
     }
   }
 }
