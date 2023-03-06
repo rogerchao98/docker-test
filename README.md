@@ -1,4 +1,4 @@
-# docker-testR
+# docker-test
 
 > Sample docker image to test various scenarios with Docker.
 
