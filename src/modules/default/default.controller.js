@@ -6,7 +6,7 @@ class Controller {
       res.send('Hello World').end();
     } else {
 
-      res.json({text: 'Hello bro speaking straight from a GitHub commit. It is 15:41'}).end();
+      res.json({text: 'Hello from the Techmoot'}).end();
     }
   }
 }
