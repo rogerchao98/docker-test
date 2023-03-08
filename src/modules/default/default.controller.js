@@ -6,7 +6,7 @@ class Controller {
       res.send('Hello World').end();
     } else {
 
-      res.json({text: 'Hello from the other side'}).end();
+      res.json({text: 'Hello from the outside of the shift'}).end();
     }
   }
 }
