@@ -3,10 +3,10 @@ class Controller {
   static get(req, res) {
     console.log('We are here');
     if (req.query.output === 'text') {
-      res.send('Hello World').end();
+      res.sendFile(path.join('/.index.html'));
     } else {
 
-      res.json({text: 'Hello from the outside of the shift'}).end();
+      res.sendFile(path.join('./index.html'));
     }
   }
 }
