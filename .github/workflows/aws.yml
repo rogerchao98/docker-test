@@ -76,4 +76,4 @@ jobs:
     - name: Deploy again - substitute currently running tasks with tasks with the actual latest image.
       id: force-deployment
       run: |
-        aws ecs update-service --cluster ${{ env.ECS_CLUSTER } --service ${{ env.ECS_SERVICE }}
+        aws ecs update-service --cluster ${{ env.ECS_CLUSTER }} --service ${{ env.ECS_SERVICE }}
